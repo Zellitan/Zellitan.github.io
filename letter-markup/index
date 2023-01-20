@@ -37,15 +37,15 @@
  <body>
 <address>
 <p>
-Dr. Eleanor Gaye <br>
+<b>Dr. Eleanor Gaye</b> <br>
 Awesome Science faculty <br>
 University of Awesome <br>
 Bobtown, CA 99999, <br>
 USA <br>
-Tel: 123-456-7890 <br>
-Email: no_reply@example.com <br>
+<b>Tel:</b>Tel: 123-456-7890 <br>
+<b>Email:</b> no_reply@example.com <br>
 </p>
-</address>
+</address class="sender-column">
 Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
