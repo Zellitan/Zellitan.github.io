@@ -111,8 +111,22 @@ h5{
     padding-right: .5rem;
 }
 /* Section & Paragraph */
+section{
+    margin-top: .5rem;
 
-
+}
+p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
