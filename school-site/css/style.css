@@ -201,7 +201,9 @@ nav a:active{
 }
 /* Footer Styles */
 
-footer{}
+footer{
+    text-align: center;
+}
 
 
 
