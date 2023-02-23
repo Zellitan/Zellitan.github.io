@@ -80,17 +80,25 @@ header, footer {
 /* Imported Typfaces */
 @font-face{
     font-family: Montserrat;
-    src: url(school-site/fonts/montserrat-regular.ttf) format('truetype');
+    src: url(fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-@font-face{}
+@font-face{
+    font-family: Josefin Slab;
+    src: url(fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
 /* Typography Styles */
 
-html{}
+html{
+    font-family: Montserrat, sans-serif;
+    font-size: normal;
+}
 h1{}
 h2{}
 h2 + p {}
