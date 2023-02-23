@@ -83,12 +83,14 @@ header, footer {
     src: url(fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+    
 }
 @font-face{
     font-family: Josefinslab;
     src: url(fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+    
 }
 
 
@@ -150,9 +152,23 @@ a:hover{
 
 /* List Styling */
 
-ul{}
-ol{}
-.long-list a:hover{}
+ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
+ol{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-latin;
+}
+.long-list a:hover{
+    text-transform: uppercase;
+}
 
 
 /* Navigation Menu */
