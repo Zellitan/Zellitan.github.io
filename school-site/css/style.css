@@ -79,13 +79,13 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face{
-    font-family: Montserrat;
+    font-family: "Montserrat";
     src: url(fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
-    font-family: Josefinslab;
+    font-family: "Josefin Slab";
     src: url(fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -100,7 +100,7 @@ html{
     font-size: normal;
 }
 h1{
-    font-family: Josefinslab, serif;
+    font-family: Josefin Slab, serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
