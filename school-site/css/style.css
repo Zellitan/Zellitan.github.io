@@ -172,13 +172,33 @@ ol{
 
 
 /* Navigation Menu */
-nav{}
-nav a{}
+nav{
+    padding-left: 0rem;
+    margin-top: .25rem;
+}
+nav a{
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1,125rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-width: .063rem;
+    border-color: #33658A;
+}
 
 nav a:focus,
-nav a:hover{}
+nav a:hover{
+    color: #fff;
+    background-color: #33658A;
+}
 
-nav a:active{}
+nav a:active{
+    color: #fff;
+    background-color: #000;
+}
 /* Footer Styles */
 
 footer{}
