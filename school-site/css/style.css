@@ -85,7 +85,7 @@ header, footer {
     font-style: normal;
 }
 @font-face{
-    font-family: Josefin Slab;
+    font-family: Josefinslab;
     src: url(fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -99,8 +99,19 @@ html{
     font-family: Montserrat, sans-serif;
     font-size: normal;
 }
-h1{}
-h2{}
+h1{
+    font-family: Josefinslab, serif;
+    letter-spacing: 0.125rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+
+}
+h2{
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, serif;
+    font-size: 1.5rem;
+}
 h2 + p {}
 p{}
 li{}
