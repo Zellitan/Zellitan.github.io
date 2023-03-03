@@ -85,9 +85,9 @@ img {
     max-width:25rem;
 }
 header {
+    text-align: center;
     margin:0 auto;
     padding:.5rem 5%;
-    text-align: center;
 }
 h1 {
     font-family:Roboto, serif;
@@ -111,17 +111,17 @@ h1 {
     
 }
 nav {
-    margin:4rem 0 4rem 0;
-    padding:0 5%;
     border-top:.0625rem solid #333;
     border-bottom:.0625rem solid #333;
+    margin:4rem 0 4rem 0;
+    padding:0 5%;
 }
 nav a {
     display:inline-block;
+    font-weight:bold;
     font-size:1.75rem;
     padding:2rem 6rem 2rem 0;
     color:#27476E;
-    font-weight:bold;
 }
 nav :nth-child(even):focus,
 nav :nth-child(even):hover,
@@ -207,8 +207,8 @@ aside p {
 }
 .expand {
     font-size:.25rem;
-    display:block;
     padding-top:.5rem;
+    display:block;
 }
 button {
     margin-top:1rem;
