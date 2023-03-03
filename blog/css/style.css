@@ -76,17 +76,13 @@ main {
     padding-bottom:.25rem;
     width:90%;
 }
-ul {
-    list-style-type:none;
+a { 
+    text-decoration:none;
 }
 img {
     width:100%;
     display:block;
     max-width:25rem;
-}
-a {
-    
-    text-decoration:none;
 }
 header {
     margin:0 auto;
@@ -148,21 +144,17 @@ nav :nth-child(odd):active {
 .main-section {
     display:flex;
 }
-article {
-    
+article {  
     width:75%;
 }
 .article-image {
-
     float:left;
     margin:0 1rem 0 0;
 }
-.article-image + p {
-    
+.article-image + p { 
     margin-top:0;
 }
 .subsection {
-    
     margin-top:4rem;
     margin-bottom:2rem;
     padding:0;
@@ -205,8 +197,7 @@ aside {
     width:19%;
     border-left: .0625rem solid #333;
 }
-aside :nth-child(1) {
-    
+aside :nth-child(1) {   
     margin-top:0;
 }
 aside p {
