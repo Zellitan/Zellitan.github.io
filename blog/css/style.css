@@ -66,13 +66,13 @@ html {
 }
 body {
     padding:0;
-    margin:0 auto;
+    margin: auto;
     font-size:1rem;
     max-width:104rem;
     min-width:64rem;
 }
 main { 
-    margin:0 auto;
+    margin: auto;
     padding-bottom:.25rem;
     width:90%;
 }
@@ -86,13 +86,13 @@ img {
 }
 header {
     text-align: center;
-    margin:0 auto;
+    margin: auto;
     padding:.5rem 5%;
 }
 h1 {
     font-family:Roboto, serif;
     font-size:3.75rem;
-    margin:2rem 0;
+    margin:2rem;
     letter-spacing: .125rem;
     text-shadow:.125rem .125rem .125rem #333;
     transform:rotate(-4deg)
@@ -100,15 +100,14 @@ h1 {
 .highlight {
     font-family:Ultra;
     font-weight:normal;
+    font-size:4rem;
     background-color:#83344D;
     color:#EED;
     padding:0 1rem;
-    font-size:4rem;
     text-transform: uppercase;
     border-top-left-radius: 1rem;
-    box-shadow:.187rem .187rem .187rem #333;
     border-bottom-right-radius: 1rem;
-    
+    box-shadow:.187rem .187rem .187rem #333;    
 }
 nav {
     border-top:.0625rem solid #333;
